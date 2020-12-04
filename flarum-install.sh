@@ -26,8 +26,8 @@ sudo apt-get -y update && apt-get upgrade
 sudo apt-get -y install unzip
 
 #Apache, Php, MySQL and required packages installation.
-sudo apt-get -y install apache2 php5 libapache2-mod-php5 php5-mcrypt php5-curl php5-mysql php5-gd php5-cli php5-dev mysql-client
-php5enmod mcrypt
+sudo apt-get -y install apache2 php73 libapache2-mod-php73 php73-mcrypt php73-curl php73-mysql php73-gd php73-cli php73-dev mysql-client
+php73enmod mcrypt
 
 #Create DB & User for Flarum - Be sure to record your credentials. NOTE: Use the MySQL root password you created above.
 echo -n "MySQL root password: "
